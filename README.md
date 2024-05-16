@@ -22,5 +22,5 @@ Beijing University of Posts and Telecommunications
 </h4>
 </div>
 
-===============================
+-----------------------------------------
 All resources will be available soon!
