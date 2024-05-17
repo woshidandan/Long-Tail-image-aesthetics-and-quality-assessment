@@ -1,5 +1,5 @@
 # Long-Tail-image-aesthetics-and-quality-assessment
-First work to propose a solution to the long-tail problem in IAA. 首篇针对IAA中的长尾问题提出解决方案的工作
+ICML2024: First work to propose a solution to the long-tail problem in IAA. 首篇针对IAA中的长尾问题提出解决方案的工作
 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
