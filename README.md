@@ -15,7 +15,7 @@ ELTA: An Enhancer against Long-Tail for Aesthetics-oriented Models
 </h1>
 <h4>
 <b>
-Limin Liu, Shuai He, Anlong Ming, Rui Xie, Huadong Ma
+Limin Liu*, Shuai He*, Anlong Ming*, Rui Xie, Huadong Ma
     
 Beijing University of Posts and Telecommunications
 </b>
