@@ -86,12 +86,13 @@ python main_nni.py
 ```
 
 ## If you find our work is useful, pleaes cite our paper:
+```
 @inproceedings{liuelta,
   title={ELTA: An Enhancer against Long-Tail for Aesthetics-oriented Models},
   author={Liu, Limin and He, Shuai and Ming, Anlong and Xie, Rui and Ma, Huadong},
   booktitle={Forty-first International Conference on Machine Learning}
 }
-
+```
 
 
 
