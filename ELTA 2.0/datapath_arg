@@ -1,0 +1,8 @@
+    parser.add_argument('--csv_path', type=str, default="/home/llm/elta/code/dataset_backup/TAD66K",
+                        help='path to dataset-label csv file')
+    parser.add_argument('--dataset_path', type=str, default='/data/dataset/TAD66K',
+                        help='path to dataset')
+    parser.add_argument('--test_dataset_path', type=str, default='/data/dataset/TAD66K',
+                        help='path to test_dataset')
+
+

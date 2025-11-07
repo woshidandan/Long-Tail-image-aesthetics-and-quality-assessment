@@ -1,0 +1,146 @@
+[2025-06-12 15:19:32] INFO (nni.runtime.trial_command_channel.v3/MainThread) Connect to trial command channel http://localhost:8082/env/local-env/KQJeW
+[2025-06-12 15:19:32] PRINT {'batch_size': 16, 'lr': 1e-05, 'tau_1': 0.2, 'tau_2': 5}
+[2025-06-12 15:19:32] PRINT {'csv_path': '/home/llm/elta/code/dataset_backup/TAD66K', 'dataset_path': '/data/dataset/TAD66K', 'test_dataset_path': '/data/dataset/TAD66K', 'loss_type': 'mse', 'num_epoch': 20, 'start_epoch': 0, 'lr': 1e-05, 'batch_size': 16, 'num_workers': 1, 'gpu_id': '0', 'metric': 'srcc', 'resume': None, 'evaluate': None, 'st': False, 'retrain': False, 'mixup': False, 'tau_1': 0.2, 'tau_2': 5, 'simloss_weight': 0.0}
+[2025-06-12 15:19:32] PRINT checkpoint file path:checkpoint/0612_1519
+[2025-06-12 15:19:32] PRINT ==================> Creating Model
+[2025-06-12 15:19:33] INFO (timm.models.helpers/MainThread) Loading pretrained weights from url (https://github.com/SwinTransformer/storage/releases/download/v2.0.0/swinv2_base_patch4_window8_256.pth)
+[2025-06-12 15:19:35] PRINT train epoch 1/20  (lr:1e-05) :
+[2025-06-12 15:32:06] PRINT train loss: 0.0184
+[2025-06-12 15:32:06] PRINT val epoch 1/20:
+[2025-06-12 15:33:32] PRINT plcc:0.4937, srcc:0.4681, mae:1.0670, mse:1.6032
+[2025-06-12 15:33:32] PRINT plcc: 0.4937, srcc: 0.4681, mae: 1.0670, mse: 1.6032
+[2025-06-12 15:33:32] PRINT validate loss: 0.0160
+[2025-06-12 15:33:32] PRINT best_srcc:0.4681
+[2025-06-12 15:33:34] PRINT train epoch 2/20  (lr:1e-05) :
+[2025-06-12 15:46:07] PRINT train loss: 0.0158
+[2025-06-12 15:46:07] PRINT val epoch 2/20:
+[2025-06-12 15:47:34] PRINT plcc:0.5098, srcc:0.4811, mae:1.0504, mse:1.5585
+[2025-06-12 15:47:34] PRINT plcc: 0.5098, srcc: 0.4811, mae: 1.0504, mse: 1.5585
+[2025-06-12 15:47:34] PRINT validate loss: 0.0156
+[2025-06-12 15:47:34] PRINT best_srcc:0.4811
+[2025-06-12 15:47:38] PRINT train epoch 3/20  (lr:1e-05) :
+[2025-06-12 16:00:11] PRINT train loss: 0.0148
+[2025-06-12 16:00:11] PRINT val epoch 3/20:
+[2025-06-12 16:01:38] PRINT plcc:0.5182, srcc:0.4898, mae:1.0424, mse:1.5482
+[2025-06-12 16:01:38] PRINT plcc: 0.5182, srcc: 0.4898, mae: 1.0424, mse: 1.5482
+[2025-06-12 16:01:38] PRINT validate loss: 0.0155
+[2025-06-12 16:01:38] PRINT best_srcc:0.4898
+[2025-06-12 16:01:42] PRINT train epoch 4/20  (lr:1e-05) :
+[2025-06-12 16:14:10] PRINT train loss: 0.0138
+[2025-06-12 16:14:10] PRINT val epoch 4/20:
+[2025-06-12 16:15:34] PRINT plcc:0.5080, srcc:0.4808, mae:1.0755, mse:1.6949
+[2025-06-12 16:15:34] PRINT plcc: 0.5080, srcc: 0.4808, mae: 1.0755, mse: 1.6949
+[2025-06-12 16:15:34] PRINT validate loss: 0.0169
+[2025-06-12 16:15:34] PRINT best_srcc:0.4898
+[2025-06-12 16:15:37] PRINT train epoch 5/20  (lr:1e-05) :
+[2025-06-12 16:28:07] PRINT train loss: 0.0126
+[2025-06-12 16:28:07] PRINT val epoch 5/20:
+[2025-06-12 16:29:32] PRINT plcc:0.4994, srcc:0.4708, mae:1.0594, mse:1.6310
+[2025-06-12 16:29:32] PRINT plcc: 0.4994, srcc: 0.4708, mae: 1.0594, mse: 1.6310
+[2025-06-12 16:29:32] PRINT validate loss: 0.0163
+[2025-06-12 16:29:32] PRINT best_srcc:0.4898
+[2025-06-12 16:29:35] PRINT train epoch 6/20  (lr:1e-05) :
+[2025-06-12 16:42:03] PRINT train loss: 0.0112
+[2025-06-12 16:42:03] PRINT val epoch 6/20:
+[2025-06-12 16:43:28] PRINT plcc:0.4921, srcc:0.4636, mae:1.0637, mse:1.6436
+[2025-06-12 16:43:28] PRINT plcc: 0.4921, srcc: 0.4636, mae: 1.0637, mse: 1.6436
+[2025-06-12 16:43:28] PRINT validate loss: 0.0164
+[2025-06-12 16:43:28] PRINT best_srcc:0.4898
+[2025-06-12 16:43:31] PRINT train epoch 7/20  (lr:1e-05) :
+[2025-06-12 16:56:00] PRINT train loss: 0.0099
+[2025-06-12 16:56:00] PRINT val epoch 7/20:
+[2025-06-12 16:57:25] PRINT plcc:0.4733, srcc:0.4445, mae:1.0714, mse:1.6946
+[2025-06-12 16:57:25] PRINT plcc: 0.4733, srcc: 0.4445, mae: 1.0714, mse: 1.6946
+[2025-06-12 16:57:25] PRINT validate loss: 0.0169
+[2025-06-12 16:57:25] PRINT best_srcc:0.4898
+[2025-06-12 16:57:28] PRINT train epoch 8/20  (lr:1e-05) :
+[2025-06-12 17:09:56] PRINT train loss: 0.0085
+[2025-06-12 17:09:56] PRINT val epoch 8/20:
+[2025-06-12 17:11:23] PRINT plcc:0.4640, srcc:0.4382, mae:1.0973, mse:1.7959
+[2025-06-12 17:11:23] PRINT plcc: 0.4640, srcc: 0.4382, mae: 1.0973, mse: 1.7959
+[2025-06-12 17:11:23] PRINT validate loss: 0.0180
+[2025-06-12 17:11:23] PRINT best_srcc:0.4898
+[2025-06-12 17:11:26] PRINT train epoch 9/20  (lr:1e-05) :
+[2025-06-12 17:23:56] PRINT train loss: 0.0074
+[2025-06-12 17:23:56] PRINT val epoch 9/20:
+[2025-06-12 17:25:23] PRINT plcc:0.4541, srcc:0.4275, mae:1.1217, mse:1.8926
+[2025-06-12 17:25:23] PRINT plcc: 0.4541, srcc: 0.4275, mae: 1.1217, mse: 1.8926
+[2025-06-12 17:25:23] PRINT validate loss: 0.0189
+[2025-06-12 17:25:23] PRINT best_srcc:0.4898
+[2025-06-12 17:25:26] PRINT train epoch 10/20  (lr:1e-05) :
+[2025-06-12 17:37:58] PRINT train loss: 0.0063
+[2025-06-12 17:37:58] PRINT val epoch 10/20:
+[2025-06-12 17:39:27] PRINT plcc:0.4464, srcc:0.4184, mae:1.1105, mse:1.8478
+[2025-06-12 17:39:27] PRINT plcc: 0.4464, srcc: 0.4184, mae: 1.1105, mse: 1.8478
+[2025-06-12 17:39:27] PRINT validate loss: 0.0185
+[2025-06-12 17:39:27] PRINT best_srcc:0.4898
+[2025-06-12 17:39:31] PRINT train epoch 11/20  (lr:1e-05) :
+[2025-06-12 17:52:01] PRINT train loss: 0.0054
+[2025-06-12 17:52:01] PRINT val epoch 11/20:
+[2025-06-12 17:53:27] PRINT plcc:0.4397, srcc:0.4109, mae:1.1398, mse:1.9573
+[2025-06-12 17:53:27] PRINT plcc: 0.4397, srcc: 0.4109, mae: 1.1398, mse: 1.9573
+[2025-06-12 17:53:27] PRINT validate loss: 0.0196
+[2025-06-12 17:53:27] PRINT best_srcc:0.4898
+[2025-06-12 17:53:31] PRINT train epoch 12/20  (lr:1e-05) :
+[2025-06-12 18:06:02] PRINT train loss: 0.0047
+[2025-06-12 18:06:02] PRINT val epoch 12/20:
+[2025-06-12 18:07:28] PRINT plcc:0.4333, srcc:0.4038, mae:1.1273, mse:1.9069
+[2025-06-12 18:07:28] PRINT plcc: 0.4333, srcc: 0.4038, mae: 1.1273, mse: 1.9069
+[2025-06-12 18:07:28] PRINT validate loss: 0.0191
+[2025-06-12 18:07:28] PRINT best_srcc:0.4898
+[2025-06-12 18:07:31] PRINT train epoch 13/20  (lr:1e-05) :
+[2025-06-12 18:20:01] PRINT train loss: 0.0041
+[2025-06-12 18:20:01] PRINT val epoch 13/20:
+[2025-06-12 18:21:27] PRINT plcc:0.4285, srcc:0.3991, mae:1.1403, mse:1.9713
+[2025-06-12 18:21:27] PRINT plcc: 0.4285, srcc: 0.3991, mae: 1.1403, mse: 1.9713
+[2025-06-12 18:21:27] PRINT validate loss: 0.0197
+[2025-06-12 18:21:27] PRINT best_srcc:0.4898
+[2025-06-12 18:21:31] PRINT train epoch 14/20  (lr:1e-05) :
+[2025-06-12 18:34:01] PRINT train loss: 0.0036
+[2025-06-12 18:34:01] PRINT val epoch 14/20:
+[2025-06-12 18:35:27] PRINT plcc:0.4345, srcc:0.4057, mae:1.1401, mse:1.9766
+[2025-06-12 18:35:27] PRINT plcc: 0.4345, srcc: 0.4057, mae: 1.1401, mse: 1.9766
+[2025-06-12 18:35:27] PRINT validate loss: 0.0198
+[2025-06-12 18:35:27] PRINT best_srcc:0.4898
+[2025-06-12 18:35:30] PRINT train epoch 15/20  (lr:1e-05) :
+[2025-06-12 18:48:00] PRINT train loss: 0.0033
+[2025-06-12 18:48:00] PRINT val epoch 15/20:
+[2025-06-12 18:49:25] PRINT plcc:0.4344, srcc:0.4062, mae:1.1409, mse:1.9768
+[2025-06-12 18:49:25] PRINT plcc: 0.4344, srcc: 0.4062, mae: 1.1409, mse: 1.9768
+[2025-06-12 18:49:25] PRINT validate loss: 0.0198
+[2025-06-12 18:49:25] PRINT best_srcc:0.4898
+[2025-06-12 18:49:28] PRINT train epoch 16/20  (lr:1e-05) :
+[2025-06-12 19:01:58] PRINT train loss: 0.0030
+[2025-06-12 19:01:58] PRINT val epoch 16/20:
+[2025-06-12 19:03:23] PRINT plcc:0.4407, srcc:0.4119, mae:1.1810, mse:2.1330
+[2025-06-12 19:03:23] PRINT plcc: 0.4407, srcc: 0.4119, mae: 1.1810, mse: 2.1330
+[2025-06-12 19:03:23] PRINT validate loss: 0.0213
+[2025-06-12 19:03:23] PRINT best_srcc:0.4898
+[2025-06-12 19:03:26] PRINT train epoch 17/20  (lr:1e-05) :
+[2025-06-12 19:15:57] PRINT train loss: 0.0027
+[2025-06-12 19:15:57] PRINT val epoch 17/20:
+[2025-06-12 19:17:22] PRINT plcc:0.4424, srcc:0.4136, mae:1.1279, mse:1.9327
+[2025-06-12 19:17:22] PRINT plcc: 0.4424, srcc: 0.4136, mae: 1.1279, mse: 1.9327
+[2025-06-12 19:17:22] PRINT validate loss: 0.0193
+[2025-06-12 19:17:22] PRINT best_srcc:0.4898
+[2025-06-12 19:17:25] PRINT train epoch 18/20  (lr:1e-05) :
+[2025-06-12 19:29:55] PRINT train loss: 0.0025
+[2025-06-12 19:29:55] PRINT val epoch 18/20:
+[2025-06-12 19:31:21] PRINT plcc:0.4414, srcc:0.4136, mae:1.1445, mse:1.9904
+[2025-06-12 19:31:21] PRINT plcc: 0.4414, srcc: 0.4136, mae: 1.1445, mse: 1.9904
+[2025-06-12 19:31:21] PRINT validate loss: 0.0199
+[2025-06-12 19:31:21] PRINT best_srcc:0.4898
+[2025-06-12 19:31:24] PRINT train epoch 19/20  (lr:1e-05) :
+[2025-06-12 19:43:55] PRINT train loss: 0.0023
+[2025-06-12 19:43:55] PRINT val epoch 19/20:
+[2025-06-12 19:45:20] PRINT plcc:0.4404, srcc:0.4108, mae:1.1319, mse:1.9472
+[2025-06-12 19:45:20] PRINT plcc: 0.4404, srcc: 0.4108, mae: 1.1319, mse: 1.9472
+[2025-06-12 19:45:20] PRINT validate loss: 0.0195
+[2025-06-12 19:45:20] PRINT best_srcc:0.4898
+[2025-06-12 19:45:23] PRINT train epoch 20/20  (lr:1e-05) :
+[2025-06-12 19:57:52] PRINT train loss: 0.0022
+[2025-06-12 19:57:52] PRINT val epoch 20/20:
+[2025-06-12 19:59:18] PRINT plcc:0.4435, srcc:0.4133, mae:1.1284, mse:1.9317
+[2025-06-12 19:59:18] PRINT plcc: 0.4435, srcc: 0.4133, mae: 1.1284, mse: 1.9317
+[2025-06-12 19:59:18] PRINT validate loss: 0.0193
+[2025-06-12 19:59:18] PRINT best_srcc:0.4898
