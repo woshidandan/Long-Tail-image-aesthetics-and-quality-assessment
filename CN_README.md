@@ -63,6 +63,7 @@ python main.py --csv_path           [dataset annotation file path]
 ```
 
 权重文件: https://drive.google.com/file/d/1pA7kOCPHEUR5oNnocBZHH41Erud9Y30S/view?usp=drive_link
+直接可用于推理的代码：https://drive.google.com/file/d/1DqJnRNrwC0XpwYAKoOK3A7C_Vazc1fNs/view?usp=sharing
 
 ## 模型推理
 ```
