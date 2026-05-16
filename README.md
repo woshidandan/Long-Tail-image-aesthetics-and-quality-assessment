@@ -64,6 +64,7 @@ python main.py --csv_path           [dataset annotation file path]
 ```
 
 checkpoint file url: https://drive.google.com/file/d/1pA7kOCPHEUR5oNnocBZHH41Erud9Y30S/view?usp=drive_link
+The direct inference code: https://drive.google.com/file/d/1DqJnRNrwC0XpwYAKoOK3A7C_Vazc1fNs/view?usp=sharing
 
 ## Model evaluation
 ```
