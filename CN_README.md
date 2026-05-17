@@ -1,5 +1,5 @@
 # Long-Tail-image-aesthetics-and-quality-assessment
-ICML2024: 首篇针对IAA中的长尾问题提出解决方案的工作
+ICML2024: 首篇针对IAA中的长尾问题提出解决方案的工作。ELTA 2.0版本已上线IJCV2026 [here](https://github.com/woshidandan/Rethinking-Long-Tail-for-Image-Aesthetics-Assessment).
 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
