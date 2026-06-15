@@ -7,6 +7,7 @@ ICML2024: First work to propose a solution to the long-tail problem in IAA. 首�
 
 [[国内的小伙伴可以看这]](https://github.com/woshidandan/Long-Tail-image-aesthetics-and-quality-assessment/blob/main/CN_README.md)This repo contains the official implementation of ELTA of the **ICML 2024** paper. Our ELTA 2.0 version released in IJCV2026 [here](https://github.com/woshidandan/Rethinking-Long-Tail-for-Image-Aesthetics-Assessment).
 
+
 <div align="center">
 <h1>
 <b>
